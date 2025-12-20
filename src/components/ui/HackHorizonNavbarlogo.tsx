@@ -6,9 +6,9 @@ export default function HackHorizonNavbarLogo() {
         <Image 
             src={shieldLogo}
             alt="Innerve Logo" 
-            width={56}
-            height={56}
-            className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" 
+            width={64} // Adjusted size
+            height={64} // Adjusted size
+            className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16" // Adjusted responsive sizes
             draggable={false}
         />
     )

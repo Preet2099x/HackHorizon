@@ -16,7 +16,8 @@ export function EventCardShield() {
       <div className="w-[91px] sm:w-[130px] md:w-[182px] lg:w-[260px]">
         <Image src={Shield} alt="Shield" className="w-full h-auto" draggable={false}/>
       </div>
-      <div className="w-[120px] sm:w-[160px] md:w-[200px] lg:w-[250px]">
+      {/* Removed ARKA JAIN University Logo */}
+      {/* <div className="w-[120px] sm:w-[160px] md:w-[200px] lg:w-[250px]">
         <Image
           src="/arka_jain_logo.png"
           alt="ARKA JAIN University Logo"
@@ -25,7 +26,7 @@ export function EventCardShield() {
           className="w-full h-auto"
           draggable={false}
         />
-      </div>
+      </div> */}
     </div>
   );
 }

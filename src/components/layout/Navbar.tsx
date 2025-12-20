@@ -2,6 +2,7 @@
 import BrochureButton from "../ui/BrochureButton";
 import InnerveNavbarLogo from "../ui/HackHorizonNavbarlogo";
 import NavigationBar from "../ui/NavigationBar";
+import ArkaJainLogo from "../ui/ArkaJainLogo";
 
 
 export default function xNavbar() {
@@ -11,7 +12,10 @@ export default function xNavbar() {
   return (
     <nav className="absolute z-50 top-0 w-full bg-transparent">
       <div className="flex justify-between items-center p-3 px-4 sm:p-4 sm:px-6 md:p-5 md:px-8 lg:px-14">
-        <InnerveNavbarLogo />
+        <div className="flex items-center gap-6"> {/* Increased gap to shift logo right */}
+          <InnerveNavbarLogo />
+          <ArkaJainLogo />
+        </div>
         <div className="flex items-center gap-2 md:gap-4">
           <NavigationBar />
           {/* Hide BrochureButton on mobile since it's now in the hamburger menu */}
