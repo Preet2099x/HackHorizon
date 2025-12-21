@@ -15,6 +15,31 @@ body {
   scrollbar-width: none;
 }
 
+/* Custom scrollbar for terms and conditions */
+.custom-scrollbar::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1a1206;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #4C1D00;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #E8C068;
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #4C1D00 #1a1206;
+}
+
 
 @layer utilities {
   .text-3d {
