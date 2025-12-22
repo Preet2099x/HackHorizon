@@ -13,10 +13,12 @@ export default function Navbar() {
         
         <div className="flex items-center gap-2 sm:gap-4 md:gap-6"> 
          
-          <div className="transform scale-90 sm:scale-100 origin-left flex items-center gap-2 sm:gap-4 md:gap-6">
+           <div className="transform scale-90 sm:scale-100 origin-left flex items-center gap-2 sm:gap-4 md:gap-6">
              <InnerveNavbarLogo />
-             <ArkaJainLogo />
-          </div>
+             <div className="mr-4 md:mr-6 lg:mr-8">{/* Add space to the right of ArkaJainLogo */}
+              <ArkaJainLogo />
+             </div>
+           </div>
         </div>
 
         <div className="flex items-center gap-2 md:gap-4">
