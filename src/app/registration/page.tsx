@@ -386,7 +386,7 @@ export default function RegistrationForm() {
                       onChange={(e) => handleMemberCount(Number(e.target.value))}
                       className="w-full px-4 py-3 bg-[#0a0a0a] border-2 border-[#4C1D00] rounded-lg text-white focus:border-[#E8C068] focus:outline-none transition-all"
                     >
-                      {[3, 4, 5].map((n) => (
+                      {[4, 5].map((n) => (
                         <option key={n} value={n}>{n} Members</option>
                       ))}
                     </select>
@@ -422,7 +422,7 @@ export default function RegistrationForm() {
                       type="email"
                       name="email"
                       required
-                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                      pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                       title="Please enter a valid email address"
                       placeholder="email@example.com"
                       value={team.leader.email}
@@ -488,7 +488,7 @@ export default function RegistrationForm() {
                       type="email"
                       name="email"
                       required
-                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                      pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                       title="Please enter a valid email address"
                       placeholder={`Member ${idx + 2} Email`}
                       value={member.email}

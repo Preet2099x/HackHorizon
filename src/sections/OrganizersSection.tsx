@@ -20,7 +20,7 @@ import sohail from "../assets/organisers/sohail.jpg";
 import adeeb from "../assets/organisers/adeeb.jpg";
 import sanchit from "../assets/organisers/sanchit.jpg";
 import aaditya from "../assets/organisers/aaditya.jpg";
-import student12 from "../assets/organisers/sohail.jpg";
+import avijeet from "../assets/organisers/avijeet.jpg";
 import umeshsir from "../assets/organisers/umeshsir.png";
 import meghamam from "../assets/organisers/meghamam.jpg";
 import utkarshsir from "../assets/organisers/utkarsh sir.png";
@@ -152,7 +152,7 @@ export default function OrganizersSection() {
     { name: "Adeeb Razi", role: "Community Lead", team: "GDG on Campus AJU", image: adeeb },
     { name: "Sanchit Agarwal", role: "Co-Technical Lead", team: "GDG on Campus AJU", image: sanchit },
     { name: "Aaditya Singh", role: "Design Lead", team: "GDG on Campus AJU", image: aaditya },
-    { name: "Avijeet Ghosal", role: "Management Lead", team: "GDG on Campus AJU", image: student12 },
+    { name: "Avijeet Ghosal", role: "Management Lead", team: "GDG on Campus AJU", image: avijeet },
   ];
 
   const technicalCoordinators = [
