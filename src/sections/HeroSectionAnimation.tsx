@@ -1,7 +1,7 @@
 "use client"
 import Navbar from "@/components/layout/Navbar";
 import Image from "next/image";
-import backgroundImage from "../assets/images/background.png";
+const backgroundImage = "/background.png";
 import InnerveHeadingLogo from "@/components/ui/HackHorizonlogo";
 import RegisterNowButton from "@/components/ui/RegisterNowButton";
 import BalloonShip from "@/components/ui/HeroSectionElement/BalloonShip";

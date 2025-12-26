@@ -1,12 +1,12 @@
 import Image from "next/image";
 import { motion } from "motion/react";
 import { useState, useEffect, useRef } from "react";
-import backgroundImage from "../assets/images/background.png";
+const backgroundImage = "/background.png";
 
 // Preload the hero background image
 const preloadHeroBackground = () => {
     const img = new window.Image();
-    img.src = backgroundImage.src;
+    img.src = backgroundImage;
 };
 
 export default function LoadingScreen() {
