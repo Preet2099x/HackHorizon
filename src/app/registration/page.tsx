@@ -183,7 +183,7 @@ export default function RegistrationForm() {
       
       {/* Background pattern */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(76,29,0,0.3),transparent_50%)]" />
-      {/* Removed noise.png background overlay */}
+      <div className="absolute inset-0 bg-[url('/noise.png')] opacity-5" />
 
       {/* Barbarian Character with Speech Bubble */}
       {!success && !error && (
